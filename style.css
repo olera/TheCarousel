@@ -1,0 +1,194 @@
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*Shifting Background Image*/
+
+#b1 { background: url('IMG/bg-10.jpg') no-repeat center center fixed;
+background-size:cover;
+padding: 20px 0; }
+#b2 { background: url('IMG/bg-9.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+#b3 { background: url('IMG/bg-7.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+#b4 { background: url('IMG/bg-6.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+#b5 { background: url('IMG/bg-5.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+#b6 { background: url('IMG/bg-4.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+#b7 { background: url('IMG/bg-2.jpg') no-repeat center center fixed; background-size:cover;
+padding: 20px 0; }
+
+
+.heart {
+  display: inline;
+  width: 100%; 
+}
+
+a {
+  text-decoration:none;
+  background: 0 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.modal-style{
+   background-color: 238;
+   padding: 0px 0;
+  margin: 0px 0 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+
+}
+
+
+.modal-style>li>a {
+    display: block;
+    clear: both;
+    font-weight: 700;
+    line-height: 1.42857143;
+    white-space: nowrap;
+}
+
+.modal-style li {
+  margin-left: 0;
+  float:none;
+}
+
+.modal-style li a {
+  color:#fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.modal-style li a:hover {
+  background-color:#ffff00;
+  color:#000; 
+}
+
+
+.main {
+  position: relative;
+  top: 80px;
+}
+
+.main h1 {
+  background-color:rgba(0,0,238,0.5); 
+  display:inline; 
+  color: #f5f5f5;
+  font-size:170px;
+  line-height:1.21;  
+  text-transform: lowercase;
+}
+
+.main h2 {
+  font-size: 60px;
+  margin: 40px 0;
+}
+
+.main .btn {
+  border-radius: 0px;
+  font-size: 18px;
+  color: 3333;
+}
+
+.main .btn-default {
+  background-color: rgba(255,255,255,0.5);
+  padding: 16px 26px;
+}
+
+.clearfix:after, .container:after, {
+  display: table;
+  content: " ";
+}
+
+
+/* The Modal (background) */
+.modal {
+    letter-spacing: 10px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color:rgba(0,0,238,1); 
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 0px;
+    border: 0px solid #238;
+    min-width:600px;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 1170px;
+}}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}}
+
+@media (min-width: 768px){
+  .container {
+    width: 1170px;
+}}
+
+@media (max-width: 800px) {
+  .main h1 {
+    font-size: 60px;
+    line-height: 1;
+}}
